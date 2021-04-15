@@ -18,6 +18,7 @@ Also, be sure to have `git` available in your PATH, `npm` might need it (You can
 - #### Node installation on MacOS
 
   If you have Homebrew installed, run the following commands.
+  
         brew install node
 
 
