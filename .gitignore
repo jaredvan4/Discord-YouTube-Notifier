@@ -1,0 +1,6 @@
+node_modules
+.env
+*.txt
+/src/log.txt
+/src/.env
+/src/latest_video_id.txt
