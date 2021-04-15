@@ -1,6 +1,6 @@
 # Discord YouTube Notifier
 
-A simple Discord bot that notifies a Discord text channel of your choosing when a specific channel uploads a new video
+A simple Discord bot; notifies a Discord text channel of your choosing when a specific channel uploads a new video
 
 ### Node
 - #### Node installation on Windows
