@@ -5,7 +5,7 @@ require('dotenv').config();
 const dBot = process.env.BOT_TOKEN;
 const ytKey = process.env.YT_KEY;
 const ytChannelId = process.env.YT_CHANNEL_ID;
-const DiscordChannelId = process.env.CHANNEL_ID
+const discordChannelId = process.env.CHANNEL_ID
 var currentId = null;
 var textChannel = null;
 const client = new discord.Client();
@@ -16,7 +16,7 @@ function main() {
     client.login(dBot);
     client.on('ready', () => {
         appendDateToFile();
-        textChannel = client.channels.cache.get(DiscordChannelId);
+        textChannel = client.channels.cache.get(discordChannelId);
         currentId = getIDFromFile();
         doYoutubeStuff();
         setInterval(doYoutubeStuff, 1200000);
